@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<?import javafx.scene.*?><?import javafx.collections.*?><?import javafx.scene.layout.*?><?import javafx.scene.control.*?><?import javafx.scene.text.*?><?import javafx.scene.image.*?><?import javafx.scene.shape.*?><?import javafx.scene.paint.*?><?import javafx.scene.web.*?><?import javafx.geometry.*?><?import java.lang.*?><?import org.develnext.jphp.ext.javafx.classes.data.*?><?import org.develnext.jphp.ext.javafx.support.*?><?import org.develnext.jphp.ext.javafx.support.control.*?><?import org.develnext.jphp.ext.game.support.*?><AnchorPane xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" AnchorPane.bottomAnchor="0" AnchorPane.leftAnchor="0" AnchorPane.rightAnchor="0" AnchorPane.topAnchor="0" focusTraversable="false" id="" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="328" prefWidth="432" styleClass="">
+  <children>
+    <FlatButton alignment="CENTER" borderRadius="3" color="#6680e6" contentDisplay="LEFT" ellipsisString="..." focusTraversable="true" graphicTextGap="4" hoverColor="#4d66cc" id="mp" layoutX="144" layoutY="152" prefHeight="32" prefWidth="144" styleClass="x-flat-button flat-btn " text="Make project" textAlignment="CENTER" textFill="#f2f2f2" underline="false" wrapText="false">
+      <font>
+        <Font name="System Regular" size="12"/>
+      </font>
+    </FlatButton>
+    <Data cursor="DEFAULT" enabled="1" id="data-mp" visible="1"/>
+    <LabelEx alignment="CENTER" autoSize="false" contentDisplay="LEFT" ellipsisString="..." focusTraversable="false" graphicTextGap="0" id="label" layoutX="8" layoutY="32" prefHeight="58" prefWidth="416" styleClass="label " text="Bundle Editor" textAlignment="CENTER" underline="false" wrapText="false">
+      <font>
+        <Font name="System Regular" size="40"/>
+      </font>
+    </LabelEx>
+    <Data cursor="DEFAULT" enabled="1" graphic=".data/img/icon.png" id="data-label" visible="1"/>
+    <FlatButton alignment="CENTER" borderRadius="3" color="#e6e6e6" contentDisplay="LEFT" ellipsisString="..." focusTraversable="true" graphicTextGap="4" hoverColor="#cccccc" id="op" layoutX="144" layoutY="192" prefHeight="32" prefWidth="144" styleClass="x-flat-button flat-btn1 " text="Open project" textAlignment="CENTER" textFill="#333333" underline="false" wrapText="false">
+      <font>
+        <Font name="System Regular" size="12"/>
+      </font>
+    </FlatButton>
+    <Data cursor="DEFAULT" enabled="1" id="data-op" visible="1"/>
+    <LabelEx alignment="CENTER_LEFT" autoSize="false" contentDisplay="LEFT" ellipsisString="..." focusTraversable="false" graphicTextGap="4" id="info" layoutX="8" layoutY="304" prefHeight="17" prefWidth="152" styleClass="label " text="" textAlignment="LEFT" underline="false" wrapText="false">
+      <font>
+        <Font name="System Regular" size="12"/>
+      </font>
+    </LabelEx>
+    <Data cursor="DEFAULT" enabled="1" id="data-info" visible="1"/>
+    <FlatButton alignment="CENTER" borderRadius="3" color="#e6e6e6" contentDisplay="LEFT" ellipsisString="..." focusTraversable="true" graphicTextGap="4" hoverColor="#cccccc" id="about" layoutX="304" layoutY="288" prefHeight="32" prefWidth="120" styleClass="x-flat-button flat-btn1 " text="About" textAlignment="CENTER" textFill="#333333" underline="false" wrapText="false">
+      <font>
+        <Font name="System Regular" size="12"/>
+      </font>
+    </FlatButton>
+    <Data cursor="DEFAULT" enabled="1" id="data-about" visible="1"/>
+    <LabelEx alignment="CENTER_LEFT" autoSize="false" contentDisplay="LEFT" ellipsisString="..." focusTraversable="false" graphicTextGap="4" id="labelAlt" layoutX="144" layoutY="80" prefHeight="28" prefWidth="216" styleClass="label " text="for DevelNext" textAlignment="LEFT" underline="false" wrapText="false">
+      <font>
+        <Font name="System Regular" size="19"/>
+      </font>
+    </LabelEx>
+    <Data cursor="DEFAULT" enabled="1" id="data-labelAlt" visible="1"/>
+    <FlatButton alignment="CENTER" borderRadius="3" color="#e6e6e6" contentDisplay="LEFT" ellipsisString="..." focusTraversable="true" graphicTextGap="4" hoverColor="#cccccc" id="settings" layoutX="272" layoutY="288" prefHeight="32" prefWidth="32" styleClass="x-flat-button flat-btn1 " text="" textAlignment="CENTER" textFill="#ffffff" underline="false" wrapText="false">
+      <font>
+        <Font name="System Regular" size="12"/>
+      </font>
+    </FlatButton>
+    <Data cursor="DEFAULT" enabled="1" graphic=".data/img/settings-20x20.png" id="data-settings" visible="1"/>
+    <LabelEx alignment="CENTER_LEFT" autoSize="false" contentDisplay="LEFT" ellipsisString="..." focusTraversable="false" graphicTextGap="4" id="warn" layoutX="8" layoutY="288" prefHeight="17" prefWidth="256" styleClass="label " text="Warning: this version has lags in the code editor" textAlignment="LEFT" underline="false" wrapText="false">
+      <font>
+        <Font name="System Regular" size="12"/>
+      </font>
+    </LabelEx>
+    <Data cursor="DEFAULT" enabled="1" id="data-warn" visible="1"/>
+  </children>
+</AnchorPane>

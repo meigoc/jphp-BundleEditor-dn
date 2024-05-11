@@ -1,0 +1,125 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<?import javafx.scene.*?><?import javafx.collections.*?><?import javafx.scene.layout.*?><?import javafx.scene.control.*?><?import javafx.scene.text.*?><?import javafx.scene.image.*?><?import javafx.scene.shape.*?><?import javafx.scene.paint.*?><?import javafx.scene.web.*?><?import javafx.geometry.*?><?import java.lang.*?><?import org.develnext.jphp.ext.javafx.classes.data.*?><?import org.develnext.jphp.ext.javafx.support.*?><?import org.develnext.jphp.ext.javafx.support.control.*?><?import org.develnext.jphp.ext.game.support.*?><AnchorPane xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" AnchorPane.bottomAnchor="0" AnchorPane.leftAnchor="0" AnchorPane.rightAnchor="0" AnchorPane.topAnchor="0" focusTraversable="false" id="" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="472" prefWidth="368" styleClass="">
+  <children>
+    <TabPaneEx focusTraversable="true" id="tabPane" layoutX="16" layoutY="333" prefHeight="96" prefWidth="336" styleClass="tab-pane " tabClosingPolicy="UNAVAILABLE">
+      <tabs>
+        <Tab text="without">
+          <content>
+            <AnchorPane focusTraversable="false" id="" maxHeight="-1" maxWidth="-1" minHeight="-1" minWidth="-1" prefHeight="69" prefWidth="336" styleClass="">
+              <children/>
+            </AnchorPane>
+          </content>
+        </Tab>
+      </tabs>
+    </TabPaneEx>
+    <ComboBox editable="false" focusTraversable="true" id="type" layoutX="8" layoutY="330" prefHeight="32" prefWidth="352" promptText="" styleClass="combo-box-base combo-box " value="" visibleRowCount="10">
+      <items xmlns:fx="http://javafx.com/fxml">
+        <FXCollections fx:factory="observableArrayList">
+          <String fx:value="Without everything"/>
+        </FXCollections>
+      </items>
+    </ComboBox>
+    <Data cursor="DEFAULT" enabled="1" id="data-type" visible="1"/>
+    <LabelEx alignment="CENTER_LEFT" autoSize="false" contentDisplay="LEFT" ellipsisString="..." focusTraversable="false" graphicTextGap="4" id="help2" layoutX="144" layoutY="168" prefHeight="17" prefWidth="216" styleClass="label " text="Group:" textAlignment="LEFT" underline="false" wrapText="false">
+      <font>
+        <Font name="System Regular" size="12"/>
+      </font>
+    </LabelEx>
+    <Data cursor="DEFAULT" enabled="1" id="data-help2" visible="1"/>
+    <TextField alignment="CENTER_LEFT" editable="true" focusTraversable="true" id="name" layoutX="8" layoutY="16" prefColumnCount="12" prefHeight="32" prefWidth="352" promptText="Name project" styleClass="text-input text-field " text="">
+      <font>
+        <Font name="System Regular" size="12"/>
+      </font>
+    </TextField>
+    <Data cursor="DEFAULT" enabled="1" id="data-name" visible="1"/>
+    <FlatButton AnchorPane.bottomAnchor="8" alignment="CENTER" borderRadius="3" color="#e6e6e6" contentDisplay="LEFT" ellipsisString="..." focusTraversable="true" graphicTextGap="4" hoverColor="#cccccc" id="make" layoutX="240" layoutY="432" prefHeight="32" prefWidth="120" styleClass="x-flat-button " text="Make" textAlignment="CENTER" textFill="#333333" underline="false" wrapText="false">
+      <font>
+        <Font name="System Regular" size="12"/>
+      </font>
+    </FlatButton>
+    <Data cursor="DEFAULT" enabled="1" id="data-make" visible="1"/>
+    <FlatButton AnchorPane.bottomAnchor="8" alignment="CENTER" borderRadius="3" color="#e6e6e6" contentDisplay="LEFT" ellipsisString="..." focusTraversable="true" graphicTextGap="4" hoverColor="#cccccc" id="close" layoutX="8" layoutY="432" prefHeight="32" prefWidth="104" styleClass="x-flat-button " text="Back" textAlignment="CENTER" textFill="#333333" underline="false" wrapText="false">
+      <font>
+        <Font name="System Regular" size="12"/>
+      </font>
+    </FlatButton>
+    <Data cursor="DEFAULT" enabled="1" id="data-close" visible="1"/>
+    <Data cursor="DEFAULT" draggable="NONE" enabled="1" id="data-tabPane" visible="1"/>
+    <TextArea editable="true" focusTraversable="true" id="desc" layoutX="8" layoutY="56" prefColumnCount="40" prefHeight="64" prefWidth="352" promptText="Description..." styleClass="text-input text-area " text="" wrapText="false">
+      <font>
+        <Font name="System Regular" size="12"/>
+      </font>
+    </TextArea>
+    <Data cursor="DEFAULT" enabled="1" id="data-desc" visible="1"/>
+    <org.develnext.jphp.ext.javafx.support.control.CanvasEx focusTraversable="false" height="64" id="icon" layoutX="8" layoutY="192" styleClass="" width="64"/>
+    <Data cursor="DEFAULT" enabled="1" id="data-icon" visible="1"/>
+    <Button alignment="CENTER" contentDisplay="LEFT" ellipsisString="..." focusTraversable="true" graphicTextGap="4" id="choose" layoutX="80" layoutY="208" prefHeight="32" prefWidth="48" styleClass="button " text="..." textAlignment="CENTER" underline="false" wrapText="false">
+      <font>
+        <Font name="System Regular" size="12"/>
+      </font>
+    </Button>
+    <Data cursor="DEFAULT" enabled="1" id="data-choose" visible="1"/>
+    <Separator focusTraversable="false" id="separator" layoutX="136" layoutY="168" orientation="VERTICAL" prefHeight="112" prefWidth="8" styleClass="separator "/>
+    <Data cursor="DEFAULT" enabled="1" id="data-separator" visible="1"/>
+    <ComboBox editable="false" focusTraversable="true" id="group" layoutX="144" layoutY="192" prefHeight="32" prefWidth="216" promptText="Group" styleClass="combo-box-base combo-box " value="" visibleRowCount="10">
+      <items xmlns:fx="http://javafx.com/fxml">
+        <FXCollections fx:factory="observableArrayList">
+          <String fx:value="Game"/>
+          <String fx:value="Network"/>
+          <String fx:value="Database"/>
+          <String fx:value="System"/>
+          <String fx:value="Other"/>
+        </FXCollections>
+      </items>
+    </ComboBox>
+    <Data cursor="DEFAULT" enabled="1" id="data-group" visible="1"/>
+    <LabelEx alignment="CENTER_LEFT" autoSize="false" contentDisplay="LEFT" ellipsisString="..." focusTraversable="false" graphicTextGap="4" id="help3" layoutX="8" layoutY="264" prefHeight="17" prefWidth="120" styleClass="label " text="Version:" textAlignment="LEFT" underline="false" wrapText="false">
+      <font>
+        <Font name="System Regular" size="12"/>
+      </font>
+    </LabelEx>
+    <Data cursor="DEFAULT" enabled="1" id="data-help3" visible="1"/>
+    <TextField alignment="CENTER_LEFT" editable="true" focusTraversable="true" id="version" layoutX="8" layoutY="288" prefColumnCount="12" prefHeight="32" prefWidth="120" promptText="Version" styleClass="text-input text-field " text="1.0">
+      <font>
+        <Font name="System Regular" size="12"/>
+      </font>
+    </TextField>
+    <Data cursor="DEFAULT" enabled="1" id="data-version" visible="1"/>
+    <LabelEx alignment="CENTER_LEFT" autoSize="false" contentDisplay="LEFT" ellipsisString="..." focusTraversable="false" graphicTextGap="4" id="help4" layoutX="144" layoutY="232" prefHeight="17" prefWidth="216" styleClass="label " text="Author:" textAlignment="LEFT" underline="false" wrapText="false">
+      <font>
+        <Font name="System Regular" size="12"/>
+      </font>
+    </LabelEx>
+    <Data cursor="DEFAULT" enabled="1" id="data-help4" visible="1"/>
+    <TextField alignment="CENTER_LEFT" editable="true" focusTraversable="true" id="author" layoutX="144" layoutY="256" prefColumnCount="12" prefHeight="32" prefWidth="216" promptText="Author" styleClass="text-input text-field " text="">
+      <font>
+        <Font name="System Regular" size="12"/>
+      </font>
+    </TextField>
+    <Data cursor="DEFAULT" enabled="1" id="data-author" visible="1"/>
+    <LabelEx alignment="CENTER_LEFT" autoSize="false" contentDisplay="LEFT" ellipsisString="..." focusTraversable="false" graphicTextGap="4" id="help1" layoutX="8" layoutY="168" prefHeight="17" prefWidth="120" styleClass="label " text="Icon:" textAlignment="LEFT" underline="false" wrapText="false">
+      <font>
+        <Font name="System Regular" size="12"/>
+      </font>
+    </LabelEx>
+    <Data cursor="DEFAULT" enabled="1" id="data-help1" visible="1"/>
+    <CheckBox alignment="CENTER_LEFT" contentDisplay="LEFT" ellipsisString="..." focusTraversable="true" graphicTextGap="4" id="aecl" layoutX="144" layoutY="296" prefHeight="24" prefWidth="176" selected="true" styleClass="check-box " text="Automatically enter class list?" textAlignment="LEFT" underline="false" wrapText="false">
+      <font>
+        <Font name="System Regular" size="12"/>
+      </font>
+    </CheckBox>
+    <Data cursor="DEFAULT" enabled="1" id="data-aecl" visible="1"/>
+    <Button alignment="CENTER" contentDisplay="LEFT" ellipsisString="..." focusTraversable="true" graphicTextGap="4" id="open" layoutX="328" layoutY="296" prefHeight="25" prefWidth="32" styleClass="button " text="&gt;" textAlignment="CENTER" underline="false" wrapText="false">
+      <font>
+        <Font name="System Regular" size="12"/>
+      </font>
+    </Button>
+    <Data cursor="DEFAULT" enabled="" id="data-open" visible="1"/>
+    <TextField alignment="CENTER_LEFT" editable="true" focusTraversable="true" id="identifer" layoutX="8" layoutY="128" prefColumnCount="12" prefHeight="32" prefWidth="352" promptText="ID" styleClass="text-input text-field " text="">
+      <font>
+        <Font name="System Regular" size="12"/>
+      </font>
+    </TextField>
+    <Data cursor="DEFAULT" enabled="1" id="data-identifer" visible="1"/>
+  </children>
+</AnchorPane>

@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<?import javafx.scene.*?><?import javafx.collections.*?><?import javafx.scene.layout.*?><?import javafx.scene.control.*?><?import javafx.scene.text.*?><?import javafx.scene.image.*?><?import javafx.scene.shape.*?><?import javafx.scene.paint.*?><?import javafx.scene.web.*?><?import javafx.geometry.*?><?import java.lang.*?><?import org.develnext.jphp.ext.javafx.classes.data.*?><?import org.develnext.jphp.ext.javafx.support.*?><?import org.develnext.jphp.ext.javafx.support.control.*?><?import org.develnext.jphp.ext.game.support.*?><AnchorPane xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" AnchorPane.bottomAnchor="0" AnchorPane.leftAnchor="0" AnchorPane.rightAnchor="0" AnchorPane.topAnchor="0" focusTraversable="false" id="" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="480" prefWidth="640" styleClass="">
+  <children>
+    <ScrollPane AnchorPane.bottomAnchor="8" AnchorPane.leftAnchor="8" AnchorPane.rightAnchor="8" AnchorPane.topAnchor="48" fitToHeight="true" fitToWidth="true" focusTraversable="false" hbarPolicy="AS_NEEDED" hvalue="0" id="container" layoutX="8" layoutY="48" prefHeight="424" prefWidth="624" styleClass="scroll-pane " vbarPolicy="AS_NEEDED" vvalue="0">
+      <content>
+        <AnchorPane focusTraversable="false" id="" maxHeight="-1" maxWidth="-1" minHeight="-1" minWidth="-1" prefHeight="424" prefWidth="624" styleClass="">
+          <children/>
+        </AnchorPane>
+      </content>
+    </ScrollPane>
+    <Data cursor="DEFAULT" enabled="1" id="data-container" visible="1"/>
+    <ProgressIndicator AnchorPane.rightAnchor="7.9342041015625" focusTraversable="false" id="loading" layoutX="600.06579589844" layoutY="8" prefHeight="32" prefWidth="32" progress="-1" styleClass="progress-indicator "/>
+    <Data cursor="DEFAULT" enabled="1" id="data-loading" visible="1"/>
+    <TextField AnchorPane.leftAnchor="8" AnchorPane.rightAnchor="82" alignment="CENTER_LEFT" editable="true" focusTraversable="true" id="findEdit" layoutX="8" layoutY="8" prefColumnCount="12" prefHeight="33" prefWidth="550" promptText="Looking for something?" styleClass="text-input text-field " text="">
+      <font>
+        <Font name="System Regular" size="12"/>
+      </font>
+    </TextField>
+    <Data cursor="DEFAULT" enabled="1" id="data-findEdit" visible="1"/>
+    <Button AnchorPane.rightAnchor="45" alignment="CENTER" contentDisplay="LEFT" ellipsisString="..." focusTraversable="true" graphicTextGap="4" id="find" layoutX="559" layoutY="8" prefHeight="32" prefWidth="32" styleClass="button " text="" textAlignment="CENTER" underline="false" wrapText="false">
+      <font>
+        <Font name="System Regular" size="12"/>
+      </font>
+    </Button>
+    <Data cursor="DEFAULT" enabled="1" graphic=".data/img/find.png" id="data-find" visible="1"/>
+    <Button AnchorPane.rightAnchor="8" alignment="CENTER" contentDisplay="LEFT" ellipsisString="..." focusTraversable="true" graphicTextGap="0" id="refresh" layoutX="596" layoutY="8" prefHeight="32" prefWidth="32" styleClass="button " text="" textAlignment="CENTER" underline="false" wrapText="false">
+      <font>
+        <Font name="System Regular" size="12"/>
+      </font>
+    </Button>
+    <Data cursor="DEFAULT" enabled="1" graphic=".data/img/Refresh.png" id="data-refresh" visible="1"/>
+  </children>
+</AnchorPane>

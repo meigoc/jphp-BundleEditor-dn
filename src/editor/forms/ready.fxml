@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<?import javafx.scene.*?><?import javafx.collections.*?><?import javafx.scene.layout.*?><?import javafx.scene.control.*?><?import javafx.scene.text.*?><?import javafx.scene.image.*?><?import javafx.scene.shape.*?><?import javafx.scene.paint.*?><?import javafx.scene.web.*?><?import javafx.geometry.*?><?import java.lang.*?><?import org.develnext.jphp.ext.javafx.classes.data.*?><?import org.develnext.jphp.ext.javafx.support.*?><?import org.develnext.jphp.ext.javafx.support.control.*?><?import org.develnext.jphp.ext.game.support.*?><AnchorPane xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" AnchorPane.bottomAnchor="0" AnchorPane.leftAnchor="0" AnchorPane.rightAnchor="0" AnchorPane.topAnchor="0" focusTraversable="false" id="" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="88" prefWidth="304" styleClass="">
+  <children>
+    <LabelEx alignment="CENTER_LEFT" autoSize="false" contentDisplay="LEFT" ellipsisString="..." focusTraversable="false" graphicTextGap="6.4102564102564" id="label" layoutX="8" layoutY="8" prefHeight="28" prefWidth="288" styleClass="label " text="" textAlignment="LEFT" underline="false" wrapText="false">
+      <font>
+        <Font name="System Regular" size="19"/>
+      </font>
+    </LabelEx>
+    <Data cursor="DEFAULT" enabled="1" graphic=".data/img/success.png" id="data-label" visible="1"/>
+    <Button alignment="CENTER" contentDisplay="LEFT" ellipsisString="..." focusTraversable="true" graphicTextGap="4" id="close" layoutX="8" layoutY="48" prefHeight="32" prefWidth="80" styleClass="button " text="Close" textAlignment="CENTER" underline="false" wrapText="false">
+      <font>
+        <Font name="System Regular" size="12"/>
+      </font>
+    </Button>
+    <Data cursor="DEFAULT" enabled="1" id="data-close" visible="1"/>
+    <Button alignment="CENTER" contentDisplay="LEFT" ellipsisString="..." focusTraversable="true" graphicTextGap="4" id="openFileFolder" layoutX="152" layoutY="48" prefHeight="32" prefWidth="144" styleClass="button " text="Open file folder" textAlignment="CENTER" underline="false" wrapText="false">
+      <font>
+        <Font name="System Regular" size="12"/>
+      </font>
+    </Button>
+    <Data cursor="DEFAULT" enabled="1" graphic=".data/img/folder.png" id="data-openFileFolder" visible="1"/>
+  </children>
+</AnchorPane>

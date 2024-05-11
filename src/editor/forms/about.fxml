@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<?import javafx.scene.*?><?import javafx.collections.*?><?import javafx.scene.layout.*?><?import javafx.scene.control.*?><?import javafx.scene.text.*?><?import javafx.scene.image.*?><?import javafx.scene.shape.*?><?import javafx.scene.paint.*?><?import javafx.scene.web.*?><?import javafx.geometry.*?><?import java.lang.*?><?import org.develnext.jphp.ext.javafx.classes.data.*?><?import org.develnext.jphp.ext.javafx.support.*?><?import org.develnext.jphp.ext.javafx.support.control.*?><?import org.develnext.jphp.ext.game.support.*?><AnchorPane xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" AnchorPane.bottomAnchor="0" AnchorPane.leftAnchor="0" AnchorPane.rightAnchor="0" AnchorPane.topAnchor="0" focusTraversable="false" id="" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="368" prefWidth="320" styleClass="">
+  <children>
+    <LabelEx alignment="CENTER" autoSize="false" contentDisplay="LEFT" ellipsisString="..." focusTraversable="false" graphicTextGap="0" id="label" layoutX="8" layoutY="8" prefHeight="64" prefWidth="304" styleClass="label " text="Bundle Editor" textAlignment="CENTER" underline="false" wrapText="false">
+      <font>
+        <Font name="System Regular" size="40"/>
+      </font>
+    </LabelEx>
+    <Data cursor="DEFAULT" enabled="1" graphic=".data/img/icon.png" id="data-label" visible="1"/>
+    <LabelEx alignment="TOP_LEFT" autoSize="false" contentDisplay="LEFT" ellipsisString="..." focusTraversable="false" graphicTextGap="4" id="info" layoutX="16" layoutY="88" prefHeight="32" prefWidth="288" styleClass="label " text="" textAlignment="LEFT" underline="false" wrapText="false">
+      <font>
+        <Font name="System Regular" size="12"/>
+      </font>
+    </LabelEx>
+    <Data cursor="DEFAULT" enabled="1" id="data-info" visible="1"/>
+    <FlatButton alignment="CENTER" borderRadius="3" color="#e6e6e6" contentDisplay="LEFT" ellipsisString="..." focusTraversable="true" graphicTextGap="4" hoverColor="#cccccc" id="checkUpdate" layoutX="168" layoutY="328" prefHeight="32" prefWidth="144" styleClass="x-flat-button " text="Check update" textAlignment="CENTER" textFill="#333333" underline="false" wrapText="false">
+      <font>
+        <Font name="System Regular" size="12"/>
+      </font>
+    </FlatButton>
+    <Data cursor="DEFAULT" enabled="1" id="data-checkUpdate" visible="1"/>
+    <ScrollPane focusTraversable="false" hbarPolicy="AS_NEEDED" hvalue="0" id="container" layoutX="16" layoutY="128" prefHeight="160" prefWidth="288" styleClass="scroll-pane " vbarPolicy="AS_NEEDED" vvalue="0">
+      <content>
+        <AnchorPane focusTraversable="false" id="" maxHeight="-1" maxWidth="-1" minHeight="-1" minWidth="-1" prefHeight="0" prefWidth="0" styleClass="">
+          <children/>
+        </AnchorPane>
+      </content>
+    </ScrollPane>
+    <Data cursor="DEFAULT" enabled="1" id="data-container" visible="1"/>
+    <LabelEx alignment="CENTER_LEFT" autoSize="false" contentDisplay="LEFT" ellipsisString="..." focusTraversable="false" graphicTextGap="4" id="labelAlt" layoutX="88" layoutY="56" prefHeight="28" prefWidth="224" styleClass="label " text="for DevelNext" textAlignment="LEFT" underline="false" wrapText="false">
+      <font>
+        <Font name="System Regular" size="19"/>
+      </font>
+    </LabelEx>
+    <Data cursor="DEFAULT" enabled="1" id="data-labelAlt" visible="1"/>
+    <Hyperlink alignment="CENTER" contentDisplay="LEFT" ellipsisString="..." focusTraversable="true" graphicTextGap="4" id="link" layoutX="8" layoutY="296" prefHeight="32" prefWidth="304" styleClass="hyperlink " text="https://github.com/illa4257/Bundle-Editor-for-Develnext" textAlignment="CENTER" wrapText="false">
+      <font>
+        <Font name="System Regular" size="12"/>
+      </font>
+    </Hyperlink>
+    <Data cursor="DEFAULT" enabled="1" id="data-link" visible="1"/>
+    <LabelEx alignment="CENTER_LEFT" autoSize="false" contentDisplay="LEFT" ellipsisString="..." focusTraversable="false" graphicTextGap="4" id="label3" layoutX="8" layoutY="288" prefHeight="17" prefWidth="88" styleClass="label " text="Link to GitHub:" textAlignment="LEFT" underline="false" wrapText="false">
+      <font>
+        <Font name="System Regular" size="12"/>
+      </font>
+    </LabelEx>
+    <Data cursor="DEFAULT" enabled="1" id="data-label3" visible="1"/>
+  </children>
+</AnchorPane>

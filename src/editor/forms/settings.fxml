@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<?import javafx.scene.*?><?import javafx.collections.*?><?import javafx.scene.layout.*?><?import javafx.scene.control.*?><?import javafx.scene.text.*?><?import javafx.scene.image.*?><?import javafx.scene.shape.*?><?import javafx.scene.paint.*?><?import javafx.scene.web.*?><?import javafx.geometry.*?><?import java.lang.*?><?import org.develnext.jphp.ext.javafx.classes.data.*?><?import org.develnext.jphp.ext.javafx.support.*?><?import org.develnext.jphp.ext.javafx.support.control.*?><?import org.develnext.jphp.ext.game.support.*?><AnchorPane xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" AnchorPane.bottomAnchor="0" AnchorPane.leftAnchor="0" AnchorPane.rightAnchor="0" AnchorPane.topAnchor="0" focusTraversable="false" id="" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="480" prefWidth="648" styleClass="">
+  <children>
+    <TreeView AnchorPane.bottomAnchor="0" AnchorPane.topAnchor="0" editable="false" fixedCellSize="-1" focusTraversable="true" id="menu" layoutX="0" layoutY="0" prefHeight="480" prefWidth="224" showRoot="false" styleClass="tree-view "/>
+    <Data cursor="DEFAULT" enabled="1" id="data-menu" visible="1"/>
+    <ScrollPane AnchorPane.bottomAnchor="40" AnchorPane.leftAnchor="224" AnchorPane.rightAnchor="0" AnchorPane.topAnchor="0" focusTraversable="false" hbarPolicy="AS_NEEDED" hvalue="0" id="content" layoutX="224" layoutY="0" prefHeight="440" prefWidth="424" styleClass="scroll-pane " vbarPolicy="AS_NEEDED" vvalue="0">
+      <content>
+        <AnchorPane focusTraversable="false" id="" maxHeight="-1" maxWidth="-1" minHeight="-1" minWidth="-1" prefHeight="0" prefWidth="0" styleClass="">
+          <children/>
+        </AnchorPane>
+      </content>
+    </ScrollPane>
+    <Data cursor="DEFAULT" enabled="1" id="data-content" visible="1"/>
+    <Panel AnchorPane.bottomAnchor="0" AnchorPane.leftAnchor="224" AnchorPane.rightAnchor="0" backgroundColor="#e6e6e6" borderColor="#c0c0c0" borderRadius="0" borderStyle="SOLID" borderWidth="0" focusTraversable="false" id="panel" layoutX="224" layoutY="440" maxHeight="-1" maxWidth="-1" minHeight="-1" minWidth="-1" prefHeight="40" prefWidth="424" styleClass="flat-panel " titleColor="#333333" titleOffset="15" titlePosition="TOP_LEFT">
+      <children>
+        <FlatButton AnchorPane.rightAnchor="8" alignment="CENTER" borderRadius="3" color="#6680e6" contentDisplay="LEFT" ellipsisString="..." focusTraversable="true" graphicTextGap="4" hoverColor="#4d66cc" id="apply" layoutX="352" layoutY="8" prefHeight="24" prefWidth="64" styleClass="x-flat-button " text="Apply" textAlignment="CENTER" textFill="#ffffff" underline="false" wrapText="false">
+          <font>
+            <Font name="System Regular" size="12"/>
+          </font>
+        </FlatButton>
+        <Data cursor="DEFAULT" enabled="1" id="data-apply" visible="1"/>
+      </children>
+      <titleFont>
+        <Font name="System Regular" size="12"/>
+      </titleFont>
+    </Panel>
+    <Data cursor="DEFAULT" enabled="1" id="data-panel" visible="1"/>
+  </children>
+</AnchorPane>

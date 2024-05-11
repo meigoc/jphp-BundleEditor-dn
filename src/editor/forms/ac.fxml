@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<?import javafx.scene.*?><?import javafx.collections.*?><?import javafx.scene.layout.*?><?import javafx.scene.control.*?><?import javafx.scene.text.*?><?import javafx.scene.image.*?><?import javafx.scene.shape.*?><?import javafx.scene.paint.*?><?import javafx.scene.web.*?><?import javafx.geometry.*?><?import java.lang.*?><?import org.develnext.jphp.ext.javafx.classes.data.*?><?import org.develnext.jphp.ext.javafx.support.*?><?import org.develnext.jphp.ext.javafx.support.control.*?><?import org.develnext.jphp.ext.game.support.*?><AnchorPane xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" AnchorPane.bottomAnchor="0" AnchorPane.leftAnchor="0" AnchorPane.rightAnchor="0" AnchorPane.topAnchor="0" focusTraversable="false" id="" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="64" prefWidth="352" styleClass="">
+  <children>
+    <ProgressBar focusTraversable="false" id="pb1" layoutX="16" layoutY="32" prefHeight="8" prefWidth="320" progress="0" styleClass="progress-bar "/>
+    <Data cursor="DEFAULT" enabled="1" id="data-pb1" visible="1"/>
+    <LabelEx alignment="CENTER_LEFT" autoSize="false" contentDisplay="LEFT" ellipsisString="..." focusTraversable="false" graphicTextGap="4" id="help1" layoutX="16" layoutY="8" prefHeight="17" prefWidth="320" styleClass="label " text="" textAlignment="LEFT" underline="false" wrapText="false">
+      <font>
+        <Font name="System Regular" size="12"/>
+      </font>
+    </LabelEx>
+    <Data cursor="DEFAULT" enabled="1" id="data-help1" visible="1"/>
+    <LabelEx alignment="CENTER_LEFT" autoSize="false" contentDisplay="LEFT" ellipsisString="..." focusTraversable="false" graphicTextGap="4" id="help2" layoutX="16" layoutY="64" prefHeight="17" prefWidth="320" styleClass="label " text="" textAlignment="LEFT" underline="false" wrapText="false">
+      <font>
+        <Font name="System Regular" size="12"/>
+      </font>
+    </LabelEx>
+    <Data cursor="DEFAULT" enabled="1" id="data-help2" visible="1"/>
+    <ProgressBar focusTraversable="false" id="pb2" layoutX="16" layoutY="88" prefHeight="8" prefWidth="320" progress="0" styleClass="progress-bar "/>
+    <Data cursor="DEFAULT" enabled="1" id="data-pb2" visible="1"/>
+  </children>
+</AnchorPane>
