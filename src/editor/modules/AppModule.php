@@ -11,18 +11,20 @@ class AppModule extends AbstractModule
      */
     function doAction(ScriptEvent $e = null)
     {
-        $GLOBALS['version'] = "dev-v0.0.1.4";
+        $GLOBALS['version'] = "1.0";
         $ide = fs::name($GLOBALS['argv'][0])=="jphp-core.jar";
         $GLOBALS['progdir'] = fs::parent($GLOBALS['argv'][0]) . '/';
         if($ide) $GLOBALS['progdir'] = fs::abs('./').'/';
         $GLOBALS['projectdir'] = $GLOBALS['progdir'] . '/projects/';
         $GLOBALS['docdir'] = $GLOBALS['progdir'] . '/docs/';
-        $GLOBALS['nickname'] = 'illa4257';
-        $GLOBALS['repo'] = 'Bundle-Editor-for-Develnext';
+        $GLOBALS['nickname'] = 'meigoc';
+        $GLOBALS['repo'] = 'jphp-BundleEditor-dn';
         $GLOBALS['updater'] = new updater;
         $settings = app()->form('settings');
-        $GLOBALS['styles'] = $settings->defColors;
-        $GLOBALS['icons'] = $settings->defIcons;
+        $GLOBALS['styles'] = $settings->darkColors;
+        $GLOBALS['icons'] = $settings->darkIcons;
+        $settings->settings['theme'] = "Dark";
+        //$settings->applySettings();
         (new Thread(function () use ($settings){
             while(!$settings->builded){}
             uiLaterAndWait(function (){

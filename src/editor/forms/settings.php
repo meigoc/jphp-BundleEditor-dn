@@ -67,7 +67,7 @@ class settings extends AbstractForm
         $at = true;
         if($theme=='Dark' or $theme=='Light') $at = false;
         if($at){
-            $theme = 'Light';
+            $theme = 'Dark';
             $this->ini->set('theme', $theme);
         }
         $this->settings['theme'] = $theme;
@@ -86,7 +86,7 @@ class settings extends AbstractForm
                 $UXVBox = new UXVBox;
                 $UXVBox->add(new UXLabelEx('Theme:'));
                 $langList = new UXComboBox;
-                $langList->itemsText = "Light\nDark";
+                $langList->itemsText = "Dark\nLight";
                 $langList->value = $this->settings['theme'];
                 $langList->on('action', function ($e){
                     $this->settings['theme'] = $e->sender->value;
